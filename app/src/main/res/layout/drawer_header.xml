@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEditTextBoder"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/undraw_blooming_re_2kc4"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/TextAppearance.AppCompat.Subhead"
+android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Daily do quiz"
+        android:layout_marginTop="16dp"
+       />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
